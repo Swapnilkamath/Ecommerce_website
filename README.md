@@ -6,3 +6,5 @@ Technologies Used:
 •	HTML: For the structure and markup of the webpages.
 •	CSS: For styling and layout customization.
 •	Bootstrap: A front-end framework that provides pre-built components and a responsive grid system, enhancing the website's design and responsiveness.
+• Javascript: For responsive Hamburger menu
+
