@@ -1,0 +1,708 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo img {
+    width: 125px;
+    margin-top: 15px;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+}
+
+nav li a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.contain {
+    max-width: 1300px;
+    /* bcz the screen shld not exceed this width */
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+@media only screen and (max-width:700px) {
+    nav {
+        margin-right: 0px;
+    }
+
+    .contain {
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    nav li a {
+        margin-right: 15px;
+    }
+}
+
+.box {
+    margin-top: 140px;
+}
+
+.box1 {
+    height: 500px;
+    /* background-color: red; */
+
+}
+
+.box1 h1 {
+    margin-top: 150px;
+    margin-left: 120px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.box1 p {
+    margin-left: 120px;
+}
+
+.box2 img {
+    max-width: 100%;
+    height: 500px;
+}
+
+@media only screen and (max-width:950px) {
+    .box1 h1 {
+        margin-left: 20px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .box1 p {
+        margin-left: 20px;
+    }
+
+}
+
+#b1 {
+    padding: 8px 30px;
+    color: #fff;
+    background-color: #ff523b;
+    border: none;
+    border-radius: 30px;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+#b1:hover {
+    background-color: rgb(190, 55, 10);
+}
+
+@media only screen and (max-width:950px) {
+    #b1 {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #b1 {
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #b1 {
+        margin-left: 20px;
+    }
+}
+
+.bg {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+#cart {
+    height: 20px;
+    width: 20px;
+}
+
+.boxx {
+    margin: 40px auto;
+}
+
+.box3 img {
+    /* background-color: red; */
+    height: 340px;
+    width: 100%;
+}
+
+.box4 img {
+    /* background-color: red; */
+    height: 340px;
+    width: 100%;
+}
+
+.box5 img {
+    /* background-color: red; */
+    height: 340px;
+    width: 100%;
+}
+
+@media only screen and (max-width:991px) and (min-width:768px) {
+    .box5 {
+        margin-top: 40px;
+        margin-left: 160px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .box4 {
+        margin-top: 40px;
+    }
+
+    .box5 {
+        margin-top: 40px;
+    }
+}
+
+.F h3 {
+    text-align: center;
+    margin-top: 40px;
+    /* border-bottom: 5px solid red;
+    margin: 0px 630px; */
+}
+
+.underline {
+    margin: 0 auto;
+    width: 7%;
+    height: 5px;
+    background-color: red;
+    margin-bottom: 40px;
+
+}
+
+.box6 img {
+    width: 100%;
+    height: 250px;
+    transition: 1s;
+}
+
+.box6 img:hover {
+    transform: scale(1.1);
+}
+
+.box7 img {
+    width: 100%;
+    height: 250px;
+    transition: 1s;
+}
+
+.box7 img:hover {
+    transform: scale(1.1);
+}
+
+.box8 img {
+    width: 100%;
+    height: 250px;
+    transition: 1s;
+}
+
+.box8 img:hover {
+    transform: scale(1.1);
+}
+
+.box9 img {
+    width: 100%;
+    height: 250px;
+    transition: 1s;
+}
+
+.box9 img:hover {
+    transform: scale(1.1);
+}
+
+.box6 p {
+    margin-top: 15px;
+    padding-left: 50px;
+}
+
+.box7 p {
+    margin-top: 15px;
+    padding-left: 70px;
+}
+
+.box8 p {
+    margin-top: 15px;
+    padding-left: 70px;
+}
+
+.box9 p {
+    margin-top: 15px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width:1199.20px) and (min-width:992px) {
+    .box9 {
+        margin-top: 40px;
+        margin-left: 320px;
+    }
+}
+
+@media only screen and (max-width:991.20px) {
+    .box8 {
+        margin-top: 40px;
+    }
+
+    .box9 {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width:767.20px) {
+    .box7 {
+        margin-top: 40px;
+    }
+}
+
+.boxxxx {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.box10 img {
+    height: 400px;
+    width: 75%;
+    transition: 1s;
+}
+
+.box10 img:hover {
+    transform: scale(1.1);
+}
+
+.box11 {
+    margin-top: 80px;
+}
+
+#b2 {
+    background: orangered;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 30px;
+    color: #fff;
+}
+
+#b2:hover {
+    background: rgb(241, 114, 67);
+}
+
+@media only screen and (max-width:870px) and (min-width:786px) {
+    .box11 {
+        margin-left: 25px;
+    }
+
+}
+
+.box12 {
+    height: 350px;
+    box-shadow: 2px 3px 10px black;
+}
+
+.box13 {
+    height: 350px;
+    box-shadow: 2px 3px 10px black;
+}
+
+.box14 {
+    height: 350px;
+    box-shadow: 2px 3px 10px black;
+}
+
+.box12 p {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.box13 p {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.box14 p {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.box12 h4 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.box13 h4 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.box14 h4 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.box12 img {
+    width: 30%;
+    border-radius: 100%;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.box13 img {
+    width: 30%;
+    border-radius: 100%;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.box14 img {
+    width: 30%;
+    border-radius: 100%;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:1200px) {
+    .box12 img {
+        margin-left: 100px;
+    }
+
+    .box13 img {
+        margin-left: 100px;
+    }
+
+    .box14 img {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width:767.20px) {
+    .box12 img {
+        width: 15%;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .box13 img {
+        width: 15%;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .box14 img {
+        width: 15%;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .box12 h4 {
+        width: 15%;
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+
+    .box13 h4 {
+        width: 15%;
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+
+    .box14 h4 {
+        width: 15%;
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .box14 {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width:767.20px) {
+    .box13 {
+        margin-top: 40px;
+    }
+
+    .box14 {
+        margin-top: 40px;
+    }
+
+}
+
+/* Brand Widget Hover effect */
+.box15 img {
+    filter: grayscale(100%);
+}
+
+.box15 img:hover {
+    filter: grayscale(0);
+}
+
+.box16 img {
+    filter: grayscale(100%);
+}
+
+.box16 img:hover {
+    filter: grayscale(0);
+}
+
+.box17 img {
+    filter: grayscale(100%);
+}
+
+.box17 img:hover {
+    filter: grayscale(0);
+}
+
+.box18 img {
+    filter: grayscale(100%);
+}
+
+.box18 img:hover {
+    filter: grayscale(0);
+}
+
+@media only screen and (max-width:1199.20px) and (min-width:992px) {
+    .box18 {
+        margin-top: 40px;
+        margin-left: 320px;
+    }
+}
+
+@media only screen and (max-width:991.20px) {
+    .box17 {
+        margin-top: 40px;
+    }
+
+    .box18 {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width:767.20px) {
+    .box16 {
+        margin-top: 40px;
+    }
+}
+.foot{
+    background-color: black;
+    color: #fff;
+    margin-top: 60px;
+}
+.box19 h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+.box19 img{
+    display: inline-block;
+    width: 30%;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+.box20 img{
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;  
+}
+.box20{
+    height: 240px;
+}
+@media (max-width:767.20px){
+    .box20{
+    height: 180px;
+}
+}
+#copy{
+    text-align: center;
+}
+
+/* Product html styling */
+#drop{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.right select{
+    float: right;
+    margin-top: 25px;
+    border: 2px solid orangered;
+    padding: 6px;
+}
+/* login html styling */
+#dro{
+    margin-top:50px;
+    margin-bottom: -60px;
+}
+.il img{
+    width: 100%;
+}
+.fr{
+    margin-top: 100px;
+    height: 270px;
+    width: 50%;
+    background-color: #fff;
+    margin-left:100px ;
+}
+.fr input{
+    display:block;
+    margin-top: 10px;
+}
+.fr h3{
+    margin-bottom: 30px;
+}
+.fr a{
+    margin-left: 30px;
+}
+.fr button{
+    border-radius: 2%;
+    border: none;
+    background-color: #ff523b;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding:2px 6px;
+    width: 35%;
+    display: block;
+    margin-left: 40px;
+}
+@media (max-width:1200px){
+    .fr{
+        margin-top: 70px;
+    }
+
+}
+@media (max-width:992px){
+    .fr{
+       width: 70%;
+       height: 220px;
+       margin-top: 20px;
+    }
+
+}
+@media (max-width:768px){
+    .fr{
+       width: 30%;
+       height: 220px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       margin-left: 200px;
+    }
+
+}
+@media (max-width:700px){
+    .fr{
+       width: 40%;
+       
+    }
+
+}
+@media (max-width:530px){
+    .fr{
+       width: 50%;
+       margin-left: 100px;
+       
+    }
+
+}
+@media (max-width:428px){
+    .fr{
+       width: 60%;
+       
+    }
+
+}
+@media (max-width:360px){
+    .fr{
+       width: 70%;
+       margin-left: 20px;
+       
+    }
+
+}
+@media (max-width:315px){
+    .fr{
+       width: 80%;
+      
+       
+    }
+
+}
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    z-index: 1;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+@media(max-width:987px){
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    } 
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    } 
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top:70px;
+        gap:0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-item{
+    margin: 16px 0;
+}
+.nav-menu.active{
+left: 0;
+}
+}
